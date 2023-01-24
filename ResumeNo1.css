@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --blue: #546de5;
+    --light_blue: #546ce55e;
+}
+html { -webkit-print-color-adjust: exact; }
+body{
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#sab_se_bara_container{
+    width: 90%;
+    /* background-color: pink; */
+}
+#pehlaContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 200px 0px;
+    /* background-color: powderblue; */
+    width: 80%;
+    margin: 0px auto;
+    height: 20vh;
+}
+.MyPic{
+    border-radius: 860px;
+    height: 150px;
+    width: 100px;
+    /* outline: 2px solid red; */
+    outline:4px solid var(--light_blue);
+    outline-offset: 1em;
+}
+.name{
+    /* color: var(--blue); */
+    color: var(--blue);
+    font-size: 5em;
+    font-family: 'Bebas Neue', cursive;
+}
+.wao{
+    font-size:1em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+.Wao_ke_andar{
+    color: var(--blue);
+}
+.heading-skills1,.heading-skills2,.heading-skills3{
+    color: var(--blue);
+    font-size: 1em;
+    font-family: 'Bebas Neue', cursive;
+}
+.skills1_ke_andar_wala{
+    font-size: 0.61em;
+    color: black;
+}
+.neechay_wala_hissa{
+    display: flex;
+    flex-direction: row;
+}
+#Profile{
+    /* background-color: var(--blue); */
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 1px 50px;
+    /* border-right: 2px solid black; */
+}
+.Prof_Heading{
+    color: var(--blue);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+}
+.Prof_Heading_Details_wali{
+    color: var(--blue);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+.Prof_Para{
+    font-size: 0.81em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.andar_wali_heading{
+    color: var(--blue);
+    font-weight: lighter;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em;
+}
+.andar_wali_heading_ka_answer{
+    font-size: 0.81em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+}
+.Contact_walay_ke_andar_wali_headings{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 0.81em;
+}
+.Contact_andar_wala_span{
+    color: var(--blue);
+    font-size: 0.91em;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dusri_side_wala_div_andar_ki_cheezain{
+    border-left: 2px solid rgba(0, 0, 0, 0.357);
+    padding: 0px 20px;
+}
+.Experience_wali_list_ki_heading{
+    line-height: 40px;
+    list-style-position: inside;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--blue);
+    font-weight: lighter;
+    letter-spacing:1px;
+    list-style:none;
+}
+.list_ki_heading_ke_jawab{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.81em;
+}
+.donon_taraf_wala_dabba{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Experience_wali_list_ki_heading_ke_andar_ki_date{
+    font-size: 0.81em;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--blue);
+    font-weight: lighter;
+}
+.Ed_walay_ka_jawab_jo_dabbay_se_bahir_hai{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.81em;
+}
+.Fifth_wala_span{
+    font-weight: bolder;
+}
+.Others_walay_ke_andar_wali_cheezain{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.81em;
+}
+.Others_walay_ke_andar_wali_cheezain_ka_span{
+    font-size: 0.81em;
+    color: var(--blue);
+}
+#sab_se_neechay_wala_dabba{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px 25px;
+    /* background-color: red; */
+}
+.dabbas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.dabbas1 #line1,.dabbas2 #line2,.dabbas3 #line3,.dabbas4 #line4,.dabbas5 #line5,.dabbas6 #line6{
+    position: relative;
+  background-color:rgba(128, 128, 128, 0.534);
+  height: 10px;
+  width: 140px;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.dabbas1 #line1::before{
+    content: "";
+    position: absolute;
+    background-color:#546de5;
+    /* width: 95%; */
+    width: var(--beforeback,10%);
+    height: 10px;
+    border-radius: 10px;
+}
+.dabbas2 #line2::before{
+    content: "";
+    position: absolute;
+    background-color:#546de5;
+    /* width: 90%; */
+    width: var(--beforeback2,10%);
+    height: 10px;
+    border-radius: 10px;
+}
+.dabbas3 #line3::before{
+    content: "";
+    position: absolute;
+    background-color:#546de5;
+    /* width: 85%; */
+    width: var(--beforeback3,10%);
+    height: 10px;
+    border-radius: 10px;
+}
+.dabbas4 #line4::before{
+    content: "";
+    position: absolute;
+    background-color:#546de5;
+    /* width: 75%; */
+    width: var(--beforeback4,10%);
+    height: 10px;
+    border-radius: 10px;
+}
+.dabbas5 #line5::before{
+    content: "";
+    position: absolute;
+    background-color:#546de5;
+    /* width: 65%; */
+    width: var(--beforeback5,10%);
+    height: 10px;
+    border-radius: 10px;
+}
+.dabbas6 #line6::before{
+    content: "";
+    position: absolute;
+    background-color:#546de5;
+    /* width: 25%; */
+    width: var(--beforeback6,10%);
+    height: 10px;
+    border-radius: 10px;
+}
+.line_ke_uper_wali_heading{
+    font-size: 1em;
+    font-family: 'Bebas Neue', cursive;
+    /* color: var(--blue); */
+    font-weight: lighter;
+}   
+.line_ke_uper_wali_percentage{
+    font-size: 1em;
+    font-family: 'Bebas Neue', cursive;
+    /* color: var(--blue); */
+    font-weight: lighter;
+}
+.line_ke_uper_wali_percentage_wala_span{
+    color: var(--blue);
+    font-size:0.71em;
+    font-weight: lighter;
+
+}
+.wao2{
+    margin: auto auto;
+    font-size:0.71em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+.Wao2_ke_andar{
+    color: var(--blue);
+}

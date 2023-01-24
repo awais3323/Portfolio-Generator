@@ -1,0 +1,9 @@
+    let line_val6 = document.getElementById('line6');
+    let line_val6_before = window.getComputedStyle(line_val6, '::before')
+    let line_val6_con = Number(document.getElementById("no6").innerHTML)
+
+    var percen = "%";
+    console.log(line_val6_con);
+    var converted = line_val6_con + percen;
+    line_val6.style.setProperty('--beforeback6', converted)
+
